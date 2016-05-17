@@ -1,0 +1,31 @@
+{
+  "name": "AndroidVersion",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "latesVersion": {
+      "type": "string",
+      "required": true
+    },
+    "appURI": {
+      "type": "string"
+    },
+    "MD5": {
+      "type": "string"
+    },
+    "isForceUpdate": {
+      "type": "boolean",
+      "default": false
+    },
+    "minimumVersion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
