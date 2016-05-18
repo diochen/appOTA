@@ -32,5 +32,9 @@
   "AndroidVersion": {
     "dataSource": "db",
     "public": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
   }
 }
